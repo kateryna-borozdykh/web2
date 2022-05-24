@@ -1,0 +1,74 @@
+.hasy {
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: relative;
+}
+
+.minutes { /* Минутная стрелка */
+    position: absolute; /*Позиционируем относительно .hasy */
+    width: 3px; /* Толщина стрелки */
+    height: 45px; /* Длина стрелки */
+    left: 51px; /*Положение стрелки*/
+    top: 10px;
+    background: black;
+    /*animation: now 1600s infinite steps(1600); !* Скорость и движение стрелки *!*/
+    /*transform-origin: 0 34px; !* Точка относительно которой вращается стрелка *!*/
+}
+
+.has {
+    position: absolute;
+    width: 43px;
+    height: 3px;
+    left: 45px;
+    top: 45px;
+    background: black;
+    /*animation: nov 43200s infinite steps(43200);*/
+    /*transform-origin: 0 29px;*/
+}
+
+.box-12 {
+    width: 10px;
+    height: 10px;
+    background: red;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: absolute;
+    left: 47px;
+    top: 5px;
+}
+
+.box-3 {
+    width: 10px;
+    height: 10px;
+    background: red;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: absolute;
+    left: 83px;
+    top: 40px;
+}
+
+.box-6 {
+    width: 10px;
+    height: 10px;
+    background: red;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: absolute;
+    left: 47px;
+    top: 82px;
+}
+
+.box-9 {
+    width: 10px;
+    height: 10px;
+    background: red;
+    border: 1px solid black;
+    border-radius: 15px;
+    position: absolute;
+    left: 5px;
+    top: 40px;
+}
