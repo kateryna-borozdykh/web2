@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Borozdykh K.V. ZPI-zp11</title>
+    <style>
+        #box {
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            width: 200px;
+            border-right: 1px solid;
+            border-bottom: 1px solid;
+        }
+
+        #box>div {
+            width: calc(100% / 6);
+            box-sizing: border-box;
+            padding: 10px;
+            border-top: 1px solid;
+            border-left: 1px solid;
+        }
+    </style>
+</head>
+
+<body>
+    <form id="form">
+
+        <input type="text" name="pib" placeholder="ПІБ ТТТТТТ Т.Т." >
+        <input type="text" name="variant" placeholder="Варіант ЧЧ">
+        <input type="tel" name="tel" placeholder="Телефон (ЧЧЧ)-ЧЧЧ-ЧЧ-ЧЧ">
+        <input type="text" name="faculty" placeholder="Факультет TTTT">
+        <input type="text" name="address" placeholder="Адреса м. ЧЧЧЧ">
+        <button type="submit">submit</button>
+
+    </form>
+
+
+    <input type="color" name="pallet" id="pallet">
+    <div id="box"></div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
